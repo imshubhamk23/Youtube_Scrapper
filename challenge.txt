@@ -1,0 +1,22 @@
+Challenge number 2 : 
+    
+1. Go to ineuron , krish , collegewallah channel 
+2. Find out how many videos are uplaoded 
+3. take input  url for a perticualr video and give me below output
+    1. Video title
+    2. video Details 
+    3. number of likes 
+    4. person name with commnet 
+4. strore all the information in a MYSQL DB (you have to design your own table mention it in your git link)
+5. logging is mandatory 
+6. Exception handling is nescessary 
+7. modular coding is nescessary
+8. Classs and object is must 
+9. Finally submit your 3 hosted URL to me and sunny along with your code base git hub link    
+
+submit your code here - https://docs.google.com/forms/d/e/1FAIpQLSebZnYql31GWUWncQoTVP8i4WZWh6a7j1pa0ebLVwneFXc8ig/viewform
+Deadline -    19th FEB  Deadlie for code and link 
+
+result announcement - 25th FEB
+
+we will select one winner and winner will be awarded with  - https://www.apple.com/in/shop/buy-iphone/iphone-14/6.1-inch-display-128gb-starlight?afid=p238%7CsArwof2HX-dc_mtid_187079nc38483_pcrid_622075397928_pgrid_146534441932_pntwk_g_pchan_online_pexid__&cid=aos-IN-kwgo-pla-iphone--slid---product-MPUR3HN%2FA-IN

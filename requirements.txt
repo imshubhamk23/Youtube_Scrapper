@@ -1,0 +1,13 @@
+click==7.1.2
+Flask==1.1.2
+Flask-Cors==3.0.9
+Jinja2==2.11.2
+requests==2.24.0
+urllib3==1.25.10
+Werkzeug==1.0.1
+pymongo
+selenium
+pandas
+#time
+pymysql
+sqlalchemy

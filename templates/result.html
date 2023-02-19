@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Review Page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+      <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+</head>
+
+<body>
+
+  <div class="table-users">
+   <div class="header">Reviews</div>
+
+   <table BORDER="2" CELLPADDING="2" CELLSPACING="2" WIDTH="1200px">
+      <tr>
+         <th>Link</th>
+         <th>Title</th>
+         <th>Description</th>
+         <th>Likes</th>
+         <th>Name and Comment</th>
+         <!-- <th>Comments</th> -->
+      </tr>
+         {% for review in reviews %}
+      <tr>
+         <td><div style = "width:80px; word-wrap: break-word">{{review['Link']}}</div></td>
+         <td><div style = "width:80px; word-wrap: break-word">{{review['Title']}}</div></td>
+         <td><div style = "width:400px; word-wrap: break-word">{{review['Description']}}</div></td>
+         <td><div style = "width:40px; word-wrap: break-word">{{review['Likes']}}</div></td>
+         <td><div style = "width:400px; word-wrap: break-word">{{review['Name and Comment']}}</div></td>
+         <!-- <td><div style = "width:140px; word-wrap: break-word">{{review['Comments']}}</div></td> -->
+         <!-- {% for name in review['Names'] %}
+            
+            <td width="100">{{name}}</td>
+         
+         {% endfor %}
+
+         {% for comment in review['Comments'] %}
+            
+            <td width="200">{{comment}}</td>
+            
+         {% endfor %} -->
+
+         {% endfor %}
+      </tr>
+   </table>
+</div>
+
+
+
+</body>
+
+</html>
